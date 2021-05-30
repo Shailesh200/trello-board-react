@@ -4,8 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Steps to run the application locally:
 
+```shell
+npm i
+```
+
+```shell
+npm start
+```
+
+In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
