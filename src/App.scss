@@ -1,0 +1,60 @@
+$layout-row-gap: 30px;
+$layout-gap-horizontal: 20px;
+$header-height: 64px;
+$add-list-button-height: 42px;
+
+.app {
+  display: grid;
+  grid-template-rows: $header-height $add-list-button-height calc(100vh - 196px);
+  row-gap: 2em;
+  padding-bottom: $layout-row-gap;
+  background-color: #f6f7f8;
+  font-family: "Lato", sans-serif;
+
+  header {
+    text-align: center;
+    box-shadow: 0 10px 10px grey;
+    background-color: #97144d;
+
+    h1 {
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+  }
+
+  .addListButtonContainer {
+    display: flex;
+    padding-right: 5em;
+    justify-content: flex-end;
+    .addListButton {
+      background-color: #97144d;
+      color: #ffffff;
+      font-weight: 600;
+    }
+  }
+
+  .addListdialogContainer {
+    width: 50em;
+  }
+
+  section {
+    display: flex;
+    margin-left: $layout-gap-horizontal;
+    gap: $layout-gap-horizontal;
+
+    .add-card-btn {
+      display: flex;
+      justify-content: center;
+    }
+    .btn-primary {
+      background-color: #97144d;
+      border-radius: 9px;
+      color: #ffffff;
+    }
+    .btn-secondary {
+      border-radius: 9px;
+      color: #97144d;
+      border: 1px solid #97144d;
+    }
+  }
+}

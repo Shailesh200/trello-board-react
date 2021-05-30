@@ -1,0 +1,28 @@
+.card {
+  position: relative;
+  margin-bottom: 10px;
+  width: 18em;
+  box-shadow: 0px 3px 20px #00000029 !important;
+
+  .card-heading {
+    text-transform: uppercase;
+    color: #696B6F;
+  }
+  .card-content {
+    margin-bottom: 1em;
+    color: #282828;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+
+  .card-desc {
+    color: #282828;
+  }
+
+  .icon-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: auto;
+  }
+}
